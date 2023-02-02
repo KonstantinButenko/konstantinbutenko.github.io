@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Personal Portfolio</title>
+    <script src="https://kit.fontawesome.com/59c0755fc0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Front-End Developer</p>
+            <h1>Hi, I`m <span>Konstantin</span><br>Butenko From Ukraine</h1>
+        </div>
+    </div>
+   </div>
+
+
+<!----------------about---------------->
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.jpg" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ut animi aliquam, cupiditate voluptas, nam amet qui dolorem natus sunt quia doloribus minus dicta quasi illum perferendis. Deleniti, maiores quam blanditiis ipsa dolorem ducimus ea autem facilis placeat magni ullam officiis voluptatum quia quaerat rerum voluptates quis labore, suscipit ipsum.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Desinging Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>App Development</span><br>Building Android/iOS apps</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2021 - Current</span><br>UI/UX Desing Training ET Institutr</li>
+                        <li><span>2019 - 2021</span><br>Team lead at StarApp LLC.</li>
+                        <li><span>2017 - 2019</span><br>UI/UX Desing Executive at Coin Digital Ltd.</li>
+                        <li><span>2016 - 2017</span><br>Intership at ekart eCommerce.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>UI/UX</span><br>Desinging Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>App Development</span><br>Building Android/iOS apps</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <!----------------services ---------->
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Desing</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, inventore!</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Desing</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, inventore!</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Desing</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, inventore!</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+   </div>
+
+
+<!-- portfolio -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" >
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connect you to the talanted people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" >
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connect you to the talanted people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" >
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connect you to the talanted people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+
+<!---------- contact---------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i> costya.butenko@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> +380933140893</p>
+                <div class="social-icons">
+                    <a href="https://uk-ua.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/?lang=ru"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://ua.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="index.js"></script>
+</body>
+</html>
